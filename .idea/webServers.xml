@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d68e7e88-936f-4f96-88b1-a4686dac1025" name="foundation" url="http://169.1.24.233">
+        <fileTransfer host="169.1.24.233" port="22" rootFolder="/var/www/foundation.co.za/html/foundation" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
