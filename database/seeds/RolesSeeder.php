@@ -99,7 +99,7 @@ class RolesSeeder extends Seeder
 
         $premiums_accounting = Role::create([
             'name' => 'premium-accounting-clerk',
-            'display_name'=>'Premium Accounting',
+            'display_name'=>'FuneralPlan Accounting',
             'permissions' =>$premiums_accounting_perms,
             'guard_name'=>'web'
         ]);

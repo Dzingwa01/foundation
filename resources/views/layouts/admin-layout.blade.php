@@ -14,6 +14,7 @@
     {{--<link href="//cdn.datatables.net/responsive/2.2.3/css/dataTables.responsive.css" rel="stylesheet"/>--}}
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"/>
     <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css"/>
+    <link rel="stylesheet" href="/css/jquery.step-maker.css">
     {{--<link href="/css/jquery-step-maker.css" type="text/css" rel="stylesheet" media="screen,projection"/>--}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Compiled and minified JavaScript -->
@@ -58,27 +59,27 @@
                 </div>
             </li>
         </ul>
-        <ul class="collapsible popout" style="margin-top:1em;">
-            <li>
-                <div class="collapsible-header" style="color:black;font-weight: bolder"> <i class="tiny material-icons">monetization_on</i>
-                    Manage Premiums </div>
-                <div class="collapsible-body" >
-                    <ul>
+        {{--<ul class="collapsible popout" style="margin-top:1em;">--}}
+            {{--<li>--}}
+                {{--<div class="collapsible-header" style="color:black;font-weight: bolder"> <i class="tiny material-icons">monetization_on</i>--}}
+                    {{--Manage Premiums </div>--}}
+                {{--<div class="collapsible-body" >--}}
+                    {{--<ul>--}}
 
-                          </ul>
-                </div>
-            </li>
-        </ul>
+                          {{--</ul>--}}
+                {{--</div>--}}
+            {{--</li>--}}
+        {{--</ul>--}}
         <ul class="collapsible popout" style="margin-top:1em;">
             <li>
                 <div class="collapsible-header" style="color:black;font-weight: bolder"> <i class="tiny material-icons">account_balance</i>
                     Manage Policies </div>
                 <div class="collapsible-body" >
                     <ul>
-                        <li><a style="color:black;font-weight: bolder" class="" href="#"><i
-                        class="tiny material-icons">business_center</i>Clients List</a></li>
-                        <li><a style="color:black;font-weight: bolder" class="" href="#"><i
-                                        class="tiny material-icons">monetization_on</i>Premiums</a></li>
+                        <li><a style="color:black;font-weight: bolder" class="" href="{{url('policies')}}"><i
+                        class="tiny material-icons">business_center</i>Policies</a></li>
+                        <li><a style="color:black;font-weight: bolder" class="" href="{{url('funeral-plans')}}"><i
+                                        class="tiny material-icons">monetization_on</i>Funeral Plans</a></li>
                         </ul>
                 </div>
             </li>
@@ -171,7 +172,8 @@
 {{--src="//cdn.datatables.net/1.10.15/js/jquery.dataTables.js"></script>--}}
 
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-{{--<script src="/js/jquery-step-maker.js"></script>--}}
+<script src="/js/jquery.step-maker.js"></script>
+
 <script>
     let options = {
         format:'yyyy-mm-dd'
