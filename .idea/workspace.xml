@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="135e6825-3d54-4a91-a7ff-f775fe4757b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/jquery.step-maker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery.step-maker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/funeral-plans/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/funeral-plans/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/funeral-plans/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/funeral-plans/view.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/policies/banking-details.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/policies/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/policies/dependants-details.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/policies/edit/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/policies/edit/funeral-plan-edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/policies/edit/nominee-details-edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/policies/funeral-plan.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/policies/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/policies/nominee-details.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/RolesSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/RolesSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/admin-home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/admin-home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin-layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin-layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,79 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/policies/funeral-plan.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1955">
-              <caret line="115" column="23" selection-start-line="85" selection-start-column="20" selection-end-line="115" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/policies/dependants-details.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="286">
               <caret line="46" column="84" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="84" />
               <folding>
                 <element signature="e#7#389#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Policy.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-              <folding>
-                <element signature="e#23#47#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PolicyController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
-              <folding>
-                <element signature="e#40#55#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;d68e7e88-936f-4f96-88b1-a4686dac1025&gt;/database/migrations/2019_02_13_160415_create_permissions_table.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_13_160415_create_permissions_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Children.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -155,6 +70,7 @@
       <find>getFuneralPlansForPolicies</find>
       <find>$funeral_policy</find>
       <find>depe</find>
+      <find>undertakes</find>
     </findStrings>
     <replaceStrings>
       <replace>account_status</replace>
@@ -313,7 +229,7 @@
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="660" />
     <option name="height" value="690" />
@@ -432,17 +348,19 @@
       <workItem from="1555047723365" duration="2172000" />
       <workItem from="1555309321113" duration="595000" />
       <workItem from="1555311266028" duration="24610000" />
-      <workItem from="1557384351299" duration="655000" />
+      <workItem from="1557384351299" duration="2570000" />
+      <workItem from="1557722992533" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77033000" />
+    <option name="totallyTimeSpent" value="79546000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-5" y="0" width="528" height="552" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21073826" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22008547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -456,12 +374,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="File Transfer" order="9" weight="0.32719547" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.37677053" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.11666667" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.3295302" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.3295302" />
       <window_info anchor="right" id="Database" order="4" weight="0.32955465" />
     </layout>
   </component>
@@ -821,16 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="46" column="84" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="84" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Policy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -862,6 +770,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="46" column="84" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="84" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
